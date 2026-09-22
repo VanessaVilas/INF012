@@ -1,0 +1,28 @@
+.conteiner{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img{
+    margin: 100px auto;
+    width: 300px;
+    height: 350px;
+}
+
+.timer{
+    font-size: 130px;
+    margin-top: -330px;
+}
+
+.areaTexto{
+    margin-top: 120px;
+    display: flex;
+}
+
+.botao{
+    width: 150px;
+    background-color: thistle;
+}

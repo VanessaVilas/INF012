@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Contador from './components/Contador'
+import Cronometro from './pages/Cronometro'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Contador/>
+    <Cronometro/>
   </StrictMode>,
 )
