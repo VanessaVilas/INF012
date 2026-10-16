@@ -3,14 +3,13 @@ import { ToastContainer } from "react-toastify"
 
 import HomePage from "../pages/HomePage"
 
-
-export default function Routes(){
+export default function AppRoutes(){
     return(
-        <BrowserRouter>
+        <div>
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
             </Routes>
             <ToastContainer/>
-        </BrowserRouter>
+        </div>
     )
 }

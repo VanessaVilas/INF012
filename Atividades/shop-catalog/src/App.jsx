@@ -1,9 +1,9 @@
-import Routes from './routes/index.jsx';
+import AppRoutes from './routes/index.jsx';
 
 export default function App() {
   return (
-    <BrowserRouter>
-        <Routes/>
-    </BrowserRouter>
+    <div>
+      <AppRoutes/>
+    </div>
   );
 }
